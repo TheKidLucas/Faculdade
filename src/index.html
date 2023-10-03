@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características de Dispositivos de Armazenamento e PCI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Cores e Tipografia */
+        :root {
+            --primary-color: #2C3E50;
+            --secondary-color: #3498DB;
+            --background-color: #ECF0F1;
+            --text-color: #333;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+        }
+
+        a, .highlight {
+            color: var(--secondary-color);
+        }
+
+        /* Layout Geral */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-section {
+            margin-bottom: 50px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e1e1e1;
+        }
+
+        /* Elementos Específicos */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        h4 {
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        p, li {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .faq {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            font-size: 0.9rem;
+            text-align: center;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dispositivos de Armazenamento e PCI</h1>
+
+        <!-- HDD -->
+        <section class="content-section">
+            <h2>Disco Rígido (HDD)</h2>
+            <img src="https://olhardigital.com.br/wp-content/uploads/2018/08/20180815120259.jpg" alt="Imagem do HDD">
+
+            <h3>História</h3>
+            <p>O HDD, ou disco rígido, é um dispositivo de armazenamento de dados não volátil que armazena dados em discos magnéticos. O conceito de disco rígido foi introduzido pela primeira vez pela IBM em 1956, com o nome de IBM 305 RAMAC.</p>
+
+            <h3>Tipos de HDD</h3>
+            <ul>
+                <li><strong>SATA (Serial ATA)</strong>: Interface padrão atual para conectar discos rígidos a computadores, substituindo o anterior PATA.</li>
+                <li><strong>PATA (Parallel ATA ou IDE)</strong>: Antigo padrão de conexão, mais lento que o SATA e com cabos mais volumosos.</li>
+                <li><strong>SCSI (Small Computer System Interface)</strong>: Principalmente usado em servidores e estações de trabalho devido ao seu preço mais alto, mas oferece um desempenho superior.</li>
+                <li><strong>SAS (Serial Attached SCSI)</strong>: Versão moderna do SCSI, combinando as vantagens do SCSI e do SATA.</li>
+            </ul>
+
+            <h3>Características Técnicas</h3>
+            <p>Os discos rígidos consistem em discos de metal ou vidro revestidos com material magnético e possuem cabeças de leitura/gravação que se movem sobre os discos para ler ou escrever dados. Eles são mais suscetíveis a danos físicos do que os SSDs, principalmente devido às suas partes móveis.</p>
+
+            <h3>Onde surgiu</h3>
+            <p>O primeiro HDD, o IBM 305 RAMAC, foi desenvolvido em San Jose, Califórnia pela IBM. Tinha 50 discos magnéticos e era do tamanho de dois refrigeradores.</p>
+
+            <div class="faq">
+                <h3>Perguntas Frequentes</h3>
+                <h4>Por que os HDDs são mais baratos que os SSDs?</h4>
+                <p>Os HDDs utilizam tecnologia mais antiga e mais barata de produzir, enquanto os SSDs usam memória flash, que é mais cara.</p>
+
+                <h4>Quanto tempo dura um HDD?</h4>
+                <p>Dependendo do uso e do cuidado, um HDD pode durar de 3 a 5 anos ou mais. No entanto, é sempre recomendado fazer backups regulares dos dados.</p>
+            </div>
+        </section>
+
+        <!-- SSD -->
+        <section class="content-section">
+            <h2>Unidade de Estado Sólido (SSD)</h2>
+            <img src="https://s2-techtudo.glbimg.com/XgSCHmZ8_ZW6Zp9vAP7-HxfpY14=/0x0:695x476/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/t/cpJXhMTLaYF8AqiRmooA/2017-01-19-novo-ssd-da-samsung-supera-3-tb-com-desempenho-tres-vezes-melhor-do-que-hd-sata-iii.png" alt="Imagem do SSD">
+
+            <h3>História</h3>
+            <p>Os SSDs utilizam memória flash para armazenar dados, o que permite acesso mais rápido e maior resistência a choques físicos em comparação aos HDDs. O primeiro SSD comercialmente disponível foi lançado pela SanDisk em 1991, com uma capacidade de 20 MB.</p>
+
+            <h3>Tipos de SSD</h3>
+            <ul>
+                <li><strong>SATA SSD</strong>: Usa a interface SATA, comum em muitos computadores. Embora seja mais rápido que um HDD, é o tipo mais lento de SSD.</li>
+                <li><strong>NVMe SSD</strong>: Um padrão mais recente que oferece velocidades de transferência significativamente mais rápidas que o SATA.</li>
+                <li><strong>M.2 SSD</strong>: Referente ao formato físico. M.2 SSDs podem usar tanto SATA quanto NVMe.</li>
+                <li><strong>U.2 SSD</strong>: Similar ao M.2, mas normalmente usado para unidades maiores e mais robustas.</li>
+            </ul>
+
+            <h3>Características Técnicas</h3>
+            <p>Os SSDs são notavelmente mais rápidos que os HDDs porque não têm partes móveis. Eles são baseados em células de memória NAND, que retêm informações sem a necessidade de energia, tornando-os dispositivos de armazenamento não volátil.</p>
+
+            <h3>Onde surgiu</h3>
+            <p>Os primeiros conceitos e protótipos de SSDs surgiram nos EUA, mas foi a empresa SanDisk que lançou o primeiro SSD comercial em 1991.</p>
+
+            <div class="faq">
+                <h3>Perguntas Frequentes</h3>
+                <h4>Por que os SSDs são mais caros?</h4>
+                <p>Os SSDs são baseados em tecnologia de memória flash, que é mais cara de produzir em comparação com os discos magnéticos dos HDDs.</p>
+
+                <h4>Os SSDs têm uma vida útil limitada?</h4>
+                <p>Sim, a memória flash em um SSD tem um número limitado de ciclos de escrita. No entanto, a maioria dos usuários não atingirá esse limite em uso normal durante muitos anos.</p>
+            </div>
+        </section>
+
+        <!-- PCI -->
+        <section class="content-section">
+            <h2>Interface de Componente Periférico (PCI)</h2>
+            <img src="https://m.media-amazon.com/images/I/81uZ2YrUKyL._AC_UF894,1000_QL80_.jpg" alt="Imagem do PCI">
+
+            <h3>História</h3>
+            <p>O PCI foi uma das primeiras tecnologias a permitir que componentes de computador se comunicassem entre si em uma taxa de transferência de alta velocidade. Foi introduzido pela Intel em 1992.</p>
+
+            <h3>Finalidade e Funcionamento</h3>
+            <p>PCI é uma norma para conectar placas adicionais (como placas de vídeo, de som, de rede) a um computador. Cada dispositivo conectado ao barramento PCI é dado um endereço exclusivo, permitindo que a CPU comunique-se diretamente com o dispositivo.</p>
+
+            <h3>Características Técnicas</h3>
+            <p>O padrão PCI original, conhecido como PCI Conventional, tem um barramento de 32 bits ou 64 bits operando a 33 ou 66 MHz. Versões subsequentes, como o PCI-X e o PCI Express, oferecem maior velocidade e mais flexibilidade.</p>
+
+            <h3>Onde surgiu</h3>
+            <p>O PCI foi desenvolvido pela Intel nos EUA, e rapidamente se tornou o padrão de fato para conectar placas de expansão a computadores pessoais.</p>
+
+            <div class="faq">
+                <h3>Perguntas Frequentes</h3>
+                <h4>Qual é a diferença entre PCI e PCI Express?</h4>
+                <p>PCI Express (ou PCIe) é uma versão mais nova e mais rápida do PCI. Em vez de um barramento compartilhado, o PCIe dá a cada dispositivo sua própria conexão direta com a CPU.</p>
+
+                <h4>Por que o PCI ainda é relevante?</h4>
+                <p>Embora o PCI tenha sido em grande parte substituído pelo PCIe em computadores modernos, ainda é relevante em sistemas mais antigos e em certas aplicações industriais e de legado.</p>
+            </div>
+        </section>
+
+        <!-- Conclusão -->
+        <section>
+            <h2>Conclusão: O que essas tecnologias têm em comum?</h2>
+            <p>Apesar de suas funções e histórias distintas, HDDs, SSDs e PCI são elementos fundamentais na evolução da computação. Eles demonstram a jornada da indústria em busca de maior eficiência, velocidade e capacidade, refletindo a constante necessidade de inovação para atender às demandas crescentes dos usuários e da tecnologia em si.</p>
+        </section>
+
+        <footer>
+            <p>© 2023 Lucas Augusto Correa Cordeiro. Todos os direitos reservados.</p>
+        </footer>
+    </div
+
+
